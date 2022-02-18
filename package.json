@@ -1,0 +1,46 @@
+{
+  "name": "js-studying__tetris",
+  "version": "1.0.0",
+  "description": "Tetris Game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "concurrently --kill-others \"webpack -w --mode development\" \"webpack-dev-server --mode development --open\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreiTrushnikov/js-studying__tetris.git"
+  },
+  "keywords": [
+    "tetris",
+    "js",
+    "javascript",
+    "module",
+    "webpack"
+  ],
+  "author": "Andrey Trushnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreiTrushnikov/js-studying__tetris/issues"
+  },
+  "homepage": "https://github.com/AndreiTrushnikov/js-studying__tetris#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.6",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  },
+  "dependencies": {
+    "concurrently": "^6.5.0",
+    "normalize.css": "^8.0.1",
+    "remove-files-webpack-plugin": "^1.5.0"
+  }
+}
