@@ -1,5 +1,8 @@
-# js-studying__tetris
+# Tetris
 
-Создание игры Сапёр.
- 
-Версия 0.1. Поле 9*9 ячеек, 10 мин. 
+## Available Scripts
+### `npm start`
+Runs the app in the development mode.\
+
+### `npm run build`
+Runs the app in the production mode.\
